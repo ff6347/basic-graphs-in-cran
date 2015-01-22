@@ -1,7 +1,7 @@
-# install.packages("RColorBrewer")
-# install.packages("gcookbook")
-# install.packages("gridExtra")
-# install.packages("reshape2")
+install.packages("RColorBrewer")
+install.packages("gcookbook")
+install.packages("gridExtra")
+install.packages("reshape2")
 #
 # setwd("/Users/fmz/Desktop/basic-graphs-in-cran/")
 
@@ -189,7 +189,7 @@ p1 <- ggplot(dat, aes(fill=category, ymax=ymax, ymin=ymin, xmax=4, xmin=3)) +
 #      labs(title="Customized ring plot")
 # p2
 
-png(file="all-plots.png", width=1920, height=1080, units="px")
+# png(file="all-plots.png", width=1920, height=1080, units="px")
 grid.arrange(bg,gbg,bp,ac,ap,lp,rp,sp,p, v,p1, pc)
 
-dev.off()
+# dev.off()
